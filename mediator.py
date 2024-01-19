@@ -15,6 +15,9 @@ def Interface():
      return 1
 
 def mediator(view):
+    
+    Interface()
+    # request sql  conter mysql db
     data = []
 
     return data
@@ -22,7 +25,6 @@ def mediator(view):
 
 
 
-Interface()
 
 
 
